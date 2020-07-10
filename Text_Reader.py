@@ -31,8 +31,6 @@ while True:
         elif y==2:
             t=input('Enter text:\n')
             speak(t)
-            if keyboard.is_pressed('Esc'):
-                engine.stop()
     else:
         break
 
