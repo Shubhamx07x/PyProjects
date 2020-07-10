@@ -1,5 +1,4 @@
 import pyttsx3
-import keyboard
 
 print('''
      --------------WELCOME TO TEXT TO SPEACH--------------
