@@ -11,7 +11,7 @@ print('''
 ''')
 engine=pyttsx3.init('sapi5')
 voices=engine.getProperty('voices')
-engine.setProperty('voice',voices[int(input('Choose your assistant\n1:ZIRA\n2:DAVID\nEnter: '))-1].id)
+engine.setProperty('voice',voices[int(input('Choose your assistant\n1:DAVID\n2:ZIRA\nEnter: '))-1].id)
 
 def speak(audio):
     engine.say(audio)
